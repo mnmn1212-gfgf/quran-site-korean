@@ -683,7 +683,7 @@ function StructuredCard({ icon: Icon, title, desc, isMobile }) {
       whileHover={isMobile ? {} : { y: -6, scale: 1.01 }}
       className={`${gradientOuterCard} h-full p-4 sm:p-5`}
     >
-      <div className={`h-full rounded-[1.5rem] p-4 ${framePanel}`}`>
+      <div className={`h-full rounded-[1.5rem] p-4 ${framePanel}`}>
         <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-gradient-to-l from-white/5 to-white/10 px-4 py-3">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#6D9B93]/18">
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
@@ -706,7 +706,7 @@ function IdentityCard({ icon: Icon, title, text, large = false, isMobile }) {
       whileHover={isMobile ? {} : { y: -6, scale: 1.01 }}
       className={`${softCard} h-full p-4 sm:p-5`}
     >
-      <div className={`h-full rounded-[1.5rem] p-4 ${framePanel}`}`>
+      <div className={`h-full rounded-[1.5rem] p-4 ${framePanel}`}>
         <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-gradient-to-l from-white/5 to-white/10 px-4 py-3">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#6D9B93]/18">
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
@@ -739,7 +739,7 @@ function ImpactCard({ icon: Icon, title, desc, isMobile }) {
       whileHover={isMobile ? {} : { y: -6, scale: 1.01 }}
       className={`${softCard} h-full p-4 sm:p-5`}
     >
-      <div className={`h-full rounded-[1.5rem] p-4 ${framePanel}`}`>
+      <div className={`h-full rounded-[1.5rem] p-4 ${framePanel}`}>
         <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-gradient-to-l from-white/5 to-white/10 px-4 py-3">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#E9D7A5]/14">
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
@@ -1185,7 +1185,7 @@ export default function QuranTranslationLandingPage() {
                             ease: "easeInOut",
                           }
                     }
-                    className={`rounded-3xl p-3 text-center backdrop-blur-md shadow-[0_10px_24px_rgba(0,0,0,0.18)] sm:p-4 ${framePanel}`}`
+                    className={`rounded-3xl p-3 text-center backdrop-blur-md shadow-[0_10px_24px_rgba(0,0,0,0.18)] sm:p-4 ${framePanel}`}
                   >
                     <div className="text-xl font-black sm:text-2xl" style={{ color: ACCENT }}>
                       {item.value}
@@ -1207,7 +1207,7 @@ export default function QuranTranslationLandingPage() {
                 transition={isMobile ? {} : { duration: 7, repeat: Infinity, ease: "easeInOut" }}
                 className={`relative mx-auto max-w-2xl p-3 sm:p-4 ${softCard}`}
               >
-                <div className={`rounded-[1.6rem] p-4 sm:p-6 ${framePanel}`}`>
+                <div className={`rounded-[1.6rem] p-4 sm:p-6 ${framePanel}`}>
                   <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                       <p className="text-xs text-white/60 sm:text-sm">현재 언어</p>
@@ -1270,7 +1270,7 @@ export default function QuranTranslationLandingPage() {
                   return (
                     <div
                       key={item.title}
-                      className={`w-full rounded-[1.4rem] px-5 py-4 text-center backdrop-blur-md shadow-[0_10px_24px_rgba(0,0,0,0.18)] sm:min-w-[220px] sm:w-auto sm:rounded-[1.6rem] ${framePanel}`}`
+                      className={`w-full rounded-[1.4rem] px-5 py-4 text-center backdrop-blur-md shadow-[0_10px_24px_rgba(0,0,0,0.18)] sm:min-w-[220px] sm:w-auto sm:rounded-[1.6rem] ${framePanel}`}
                     >
                       <div className="flex items-center justify-center gap-3">
                         <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 sm:h-11 sm:w-11">
@@ -1569,7 +1569,7 @@ export default function QuranTranslationLandingPage() {
                 className={`mt-8 rounded-[2rem] p-4 sm:p-6 md:p-8 ${gradientOuterCard}`}
               >
                 <div className="rounded-[2rem] border border-white/10 bg-[rgba(7,20,35,0.58)] p-4 sm:p-6">
-                  <div className={`rounded-[1.5rem] p-4 sm:p-5 ${framePanel}`}`>
+                  <div className={`rounded-[1.5rem] p-4 sm:p-5 ${framePanel}`}>
                     <div className="mb-4 text-xl font-bold sm:text-2xl">연락하기</div>
                     <div className="space-y-3 text-white/75">
                       <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm sm:text-base">
@@ -1620,7 +1620,7 @@ export default function QuranTranslationLandingPage() {
                   </p>
                 </div>
 
-                <div className={`rounded-[1.6rem] p-4 sm:p-5 flex flex-col items-center justify-center text-center ${framePanel}`}`>
+                <div className={`rounded-[1.6rem] p-4 sm:p-5 flex flex-col items-center justify-center text-center ${framePanel}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-4 text-lg font-bold text-white sm:text-xl">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow-[0_8px_18px_rgba(0,0,0,0.14)]">
                       <MessageCircle className="h-6 w-6" style={{ color: ACCENT }} />
@@ -1660,7 +1660,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className={`rounded-[1.8rem] p-4 backdrop-blur-md sm:p-5 flex flex-col items-center justify-center text-center ${framePanel}`}`>
+                <div className={`rounded-[1.8rem] p-4 backdrop-blur-md sm:p-5 flex flex-col items-center justify-center text-center ${framePanel}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-4 text-lg font-bold text-white sm:text-xl">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow-[0_8px_18px_rgba(0,0,0,0.14)]">
                       <Link2 className="h-6 w-6" style={{ color: ACCENT }} />
