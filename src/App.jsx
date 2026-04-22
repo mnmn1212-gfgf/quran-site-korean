@@ -1618,7 +1618,7 @@ export default function QuranTranslationLandingPage() {
             >
               <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr_1fr]">
                 <div
-                  className={`rounded-[1.8rem] border border-white/10 p-4 text-center sm:p-6 ${INNER_GRADIENT}`}
+                  className={`rounded-[1.8rem] border border-white/10 p-4 text-center sm:p-6 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_30px_rgba(0,0,0,0.22)]`}
                 >
                   <div className="flex h-full min-h-[420px] flex-col items-center justify-center">
                     <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-white/15 bg-white/10 shadow-[0_0_18px_rgba(255,255,255,0.06)] backdrop-blur-md sm:h-24 sm:w-24">
@@ -1651,7 +1651,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.6rem] border border-white/10 ${OUTER_GRADIENT} p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_30px_rgba(0,0,0,0.22)]`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#C7E7E0]/20 bg-[linear-gradient(135deg,rgba(214,195,161,0.14)_0%,rgba(255,255,255,0.08)_100%)] shadow-[0_0_24px_rgba(108,188,184,0.16)] backdrop-blur-md">
                       <MessageCircle
@@ -1702,7 +1702,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.04))] p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.8rem] border border-white/10 ${OUTER_GRADIENT} p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center md:backdrop-blur-xl backdrop-blur-sm shadow-[0_10px_30px_rgba(0,0,0,0.22)]`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#C7E7E0]/20 bg-[linear-gradient(135deg,rgba(214,195,161,0.14)_0%,rgba(255,255,255,0.08)_100%)] shadow-[0_0_24px_rgba(108,188,184,0.16)] backdrop-blur-md">
                       <Link2
